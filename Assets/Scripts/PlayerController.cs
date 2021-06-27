@@ -30,14 +30,18 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // give the player a nudge to get it going
+        float fx = UnityEngine.Random.Range(2.0f, 5.0f);
+        float fy = UnityEngine.Random.Range(2.0f, 5.0f);
+        _rigidBody.AddForce(new Vector2(fx, fy), ForceMode2D.Impulse);
     }
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(MOUSE_BUTTON_LEFT)) {
-            _worldPosClicked = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            _worldPosClicked = Camera.main.
+                ScreenToWorldPoint(Input.mousePosition);
             _worldPosClicked.z = transform.position.z;
             _userClicked = true;
         }
@@ -49,11 +53,15 @@ public class PlayerController : MonoBehaviour
             HandleUserClick();
             _userClicked = false;
         }
-        foreach (GameObject body in GameManager.Instance.Attractors) {
-            Vector3 dirToAttractor = (body.transform.position - transform.position).normalized;
-            const float centralForceMag = 10.0f;
-            _rigidBody.AddForce(dirToAttractor * centralForceMag, ForceMode2D.Force);
-        }
+        ApplyForces();
+    }
+
+
+    private void ApplyForces()
+    {
+        Vector3 attractionForce = GameManager.Instance.
+            GetAttractionForceAtLocation(transform.position);
+        _rigidBody.AddForce(attractionForce, ForceMode2D.Force);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

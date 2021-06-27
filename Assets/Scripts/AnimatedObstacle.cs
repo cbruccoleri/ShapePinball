@@ -10,6 +10,15 @@ public abstract class AnimatedObstacle : MonoBehaviour
     [SerializeField]
     protected int _pointMultiplier = 2;
 
+
+    [SerializeField, Range(-50.0f, 50.0f)]
+    protected float _attractionForce = 10.0f;
+
+    public float AttractionForce { 
+        get => _attractionForce; 
+        private set => _attractionForce = value;
+    }
+
     public int PointValue => _pointMultiplier * _baseScore;
 
     public int PointMultiplier { 
