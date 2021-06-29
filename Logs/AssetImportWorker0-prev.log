@@ -1,0 +1,1557 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'en' Physical Memory: 16312 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/local/code/unity/ShapePinball
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50697
+Successfully changed project path to: C:/local/code/unity/ShapePinball
+C:/local/code/unity/ShapePinball
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/local/code/unity/ShapePinball/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   
+    VRAM:     11127 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002231 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2819.
+Total: 2.237800 ms (FindLiveObjects: 0.194800 ms CreateObjectMapping: 0.094700 ms MarkObjects: 1.831800 ms  DeleteObjects: 0.115600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/GameConstants.cs
+  artifactKey: Guid(c613b5228cd813743afa91aee00252d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameConstants.cs using Guid(c613b5228cd813743afa91aee00252d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd3caf172594ad561ed369d23fe8fe4') in 0.032264 seconds 
+  Import took 0.035299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4263.866872 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082a418981f9a0163983b7c06add72e2') in 0.031632 seconds 
+  Import took 0.040091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.159129 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082a418981f9a0163983b7c06add72e2') in 0.002728 seconds 
+  Import took 0.006263 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.7 MB.
+System memory in use after: 123.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2823.
+Total: 2.348400 ms (FindLiveObjects: 0.226300 ms CreateObjectMapping: 0.129900 ms MarkObjects: 1.889600 ms  DeleteObjects: 0.101500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 300.666113 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21c1c8cd016ce9687b94dd79472d7e6') in 0.020183 seconds 
+  Import took 0.023887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.763997 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aaf7dd6d1d5ffe98984d87b8e44490') in 0.002709 seconds 
+  Import took 0.005798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.302664 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa973905e7610e6ebb317f5786467106') in 0.002527 seconds 
+  Import took 0.005692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.508190 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13c8eb38ad77721997f8e70756f8418') in 0.002764 seconds 
+  Import took 0.005886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.774212 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c524eb8b8280c58cac7305d19562628a') in 0.002831 seconds 
+  Import took 0.007299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.829322 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f07cc5fad342a86903cdf9a5b95678e') in 0.002559 seconds 
+  Import took 0.007097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.652870 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f10fa3b40e1c5c60c00c34adb53a1d') in 0.002392 seconds 
+  Import took 0.006672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.991774 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36a25118f01a35dba0087db08432218') in 0.002935 seconds 
+  Import took 0.006106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.999145 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542622ce0e232fd10e5e1f5749a81e15') in 0.004119 seconds 
+  Import took 0.007910 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.7 MB.
+System memory in use after: 123.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2827.
+Total: 2.483200 ms (FindLiveObjects: 0.212400 ms CreateObjectMapping: 0.082600 ms MarkObjects: 2.084300 ms  DeleteObjects: 0.103000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 231.401539 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49685f47a7775edc2f0ce3047be25c0') in 0.019119 seconds 
+  Import took 0.022605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007025 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49685f47a7775edc2f0ce3047be25c0') in 0.002384 seconds 
+  Import took 0.005406 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.8 MB.
+System memory in use after: 123.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2831.
+Total: 2.392700 ms (FindLiveObjects: 0.187400 ms CreateObjectMapping: 0.087300 ms MarkObjects: 2.014700 ms  DeleteObjects: 0.102400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 282.759718 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84249cabf1227842f8708642583a9759') in 0.017755 seconds 
+  Import took 0.020941 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004120 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.8 MB.
+System memory in use after: 123.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2835.
+Total: 2.511600 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.125100 ms  DeleteObjects: 0.112900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61.354228 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3db58be6a5a0706322cf7af6b61f696') in 0.013816 seconds 
+  Import took 0.016969 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004244 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.7 MB.
+System memory in use after: 123.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2839.
+Total: 2.576900 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.184600 ms  DeleteObjects: 0.102200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.389905 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e75d8c05a22d667af3f3739adbd09d5') in 0.013686 seconds 
+  Import took 0.017241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012099 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e75d8c05a22d667af3f3739adbd09d5') in 0.002916 seconds 
+  Import took 0.006139 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.8 MB.
+System memory in use after: 123.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2843.
+Total: 2.441300 ms (FindLiveObjects: 0.193900 ms CreateObjectMapping: 0.085900 ms MarkObjects: 2.055100 ms  DeleteObjects: 0.105600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 596.755530 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8b5ff7eeb27763f8dc575372fd61a6') in 0.014859 seconds 
+  Import took 0.019180 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.8 MB.
+System memory in use after: 123.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2847.
+Total: 2.204800 ms (FindLiveObjects: 0.189200 ms CreateObjectMapping: 0.085500 ms MarkObjects: 1.823100 ms  DeleteObjects: 0.106200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.581470 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aeebb6fd9e5d4cff9c9d605302d4472') in 0.015720 seconds 
+  Import took 0.018953 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.8 MB.
+System memory in use after: 123.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2851.
+Total: 2.190100 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.079800 ms MarkObjects: 1.822700 ms  DeleteObjects: 0.105700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 372.870728 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab7ae8bcd0540413336382f1cb67a32') in 0.016096 seconds 
+  Import took 0.019276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008945 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab7ae8bcd0540413336382f1cb67a32') in 0.002794 seconds 
+  Import took 0.005837 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.8 MB.
+System memory in use after: 123.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2855.
+Total: 2.719100 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.081900 ms MarkObjects: 2.321800 ms  DeleteObjects: 0.104000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.963673 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589184eb4fa7cfc8ac0b2f29c3141c79') in 0.014312 seconds 
+  Import took 0.018176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013955 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589184eb4fa7cfc8ac0b2f29c3141c79') in 0.002540 seconds 
+  Import took 0.005649 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004344 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.8 MB.
+System memory in use after: 123.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2859.
+Total: 2.523600 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.149900 ms  DeleteObjects: 0.104200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198.730073 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52b553adccf4659374d59746e4fe9f9') in 0.018291 seconds 
+  Import took 0.021610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011532 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52b553adccf4659374d59746e4fe9f9') in 0.002845 seconds 
+  Import took 0.006207 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 123.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2863.
+Total: 2.457400 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.085100 ms MarkObjects: 2.062900 ms  DeleteObjects: 0.106000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61.691242 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828b5c1d8d55f5a72e10ce661b37529e') in 0.015104 seconds 
+  Import took 0.018444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013512 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828b5c1d8d55f5a72e10ce661b37529e') in 0.002813 seconds 
+  Import took 0.006456 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2867.
+Total: 2.189000 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.089900 ms MarkObjects: 1.803100 ms  DeleteObjects: 0.104300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70.283258 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77488b0d73d193be692479cc20f4ba03') in 0.014413 seconds 
+  Import took 0.018276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010443 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77488b0d73d193be692479cc20f4ba03') in 0.002808 seconds 
+  Import took 0.006990 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004122 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2871.
+Total: 2.354100 ms (FindLiveObjects: 0.188000 ms CreateObjectMapping: 0.081200 ms MarkObjects: 1.977200 ms  DeleteObjects: 0.106800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.127300 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1025bd6cc46d5f5bb7e7a484c95daf23') in 0.013128 seconds 
+  Import took 0.016690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011871 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1025bd6cc46d5f5bb7e7a484c95daf23') in 0.002496 seconds 
+  Import took 0.006023 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003944 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2875.
+Total: 2.426700 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.085200 ms MarkObjects: 2.039400 ms  DeleteObjects: 0.105100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.179533 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1447bf1656b2e2973650975230c973ec') in 0.015482 seconds 
+  Import took 0.018963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009332 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1447bf1656b2e2973650975230c973ec') in 0.002879 seconds 
+  Import took 0.006101 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.8 MB.
+System memory in use after: 123.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2879.
+Total: 2.427000 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.082900 ms MarkObjects: 2.052000 ms  DeleteObjects: 0.105700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.634281 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d12e3a2860bc67773788a6be471d002') in 0.015989 seconds 
+  Import took 0.019733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010424 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d12e3a2860bc67773788a6be471d002') in 0.002686 seconds 
+  Import took 0.005741 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2883.
+Total: 2.771000 ms (FindLiveObjects: 0.252400 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.305900 ms  DeleteObjects: 0.124000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 192.628082 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66901266fbf07cc2c11e7c42d7c1af72') in 0.017639 seconds 
+  Import took 0.022300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008336 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66901266fbf07cc2c11e7c42d7c1af72') in 0.002701 seconds 
+  Import took 0.006336 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003813 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2887.
+Total: 2.618500 ms (FindLiveObjects: 0.269500 ms CreateObjectMapping: 0.142800 ms MarkObjects: 2.100300 ms  DeleteObjects: 0.104800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.429450 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde4cef10036832f34ab45f8266dbb8c') in 0.016495 seconds 
+  Import took 0.019658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008387 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde4cef10036832f34ab45f8266dbb8c') in 0.002496 seconds 
+  Import took 0.005656 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004335 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2891.
+Total: 2.737600 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.075900 ms MarkObjects: 2.344800 ms  DeleteObjects: 0.108000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.823804 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3022b4e3f48a9d34bc092221e7518739') in 0.014528 seconds 
+  Import took 0.017865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010754 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3022b4e3f48a9d34bc092221e7518739') in 0.002604 seconds 
+  Import took 0.005719 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2895.
+Total: 2.422700 ms (FindLiveObjects: 0.209800 ms CreateObjectMapping: 0.070700 ms MarkObjects: 2.035300 ms  DeleteObjects: 0.106000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53.161130 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4c62de051c1f3469acf3b73a1467c0') in 0.015009 seconds 
+  Import took 0.018394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011395 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4c62de051c1f3469acf3b73a1467c0') in 0.002508 seconds 
+  Import took 0.005802 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 123.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2899.
+Total: 2.574300 ms (FindLiveObjects: 0.232700 ms CreateObjectMapping: 0.074200 ms MarkObjects: 2.156900 ms  DeleteObjects: 0.109400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 268.979757 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e290300f4fd6bc2d82574c59b596f5d9') in 0.015598 seconds 
+  Import took 0.019074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010370 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e290300f4fd6bc2d82574c59b596f5d9') in 0.002959 seconds 
+  Import took 0.006485 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2903.
+Total: 2.399500 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.031500 ms  DeleteObjects: 0.104400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105.206118 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbae109962eb59953400d9f82cf53135') in 0.016820 seconds 
+  Import took 0.020310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009738 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbae109962eb59953400d9f82cf53135') in 0.002919 seconds 
+  Import took 0.007291 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003970 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2907.
+Total: 2.506400 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.074200 ms MarkObjects: 2.117000 ms  DeleteObjects: 0.102900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 201.486891 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8a154d219a9151680a9ba2b2c209a1') in 0.014964 seconds 
+  Import took 0.018324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010515 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8a154d219a9151680a9ba2b2c209a1') in 0.002806 seconds 
+  Import took 0.006123 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2911.
+Total: 3.064500 ms (FindLiveObjects: 0.309400 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.526800 ms  DeleteObjects: 0.124500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2915.
+Total: 2.594300 ms (FindLiveObjects: 0.194900 ms CreateObjectMapping: 0.086300 ms MarkObjects: 2.201700 ms  DeleteObjects: 0.110400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.731118 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a80a64919c16b0f8e3de2d26b0c0170') in 0.015597 seconds 
+  Import took 0.018575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.985373 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23856f86d933e0bf78dc5696d53207e5') in 0.002402 seconds 
+  Import took 0.005703 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2919.
+Total: 2.527700 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.072500 ms MarkObjects: 2.138100 ms  DeleteObjects: 0.105600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67.433076 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e8f5b54333782043e1d9c6224e7078') in 0.017047 seconds 
+  Import took 0.020278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010425 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e8f5b54333782043e1d9c6224e7078') in 0.002456 seconds 
+  Import took 0.005603 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2923.
+Total: 2.406200 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.072900 ms MarkObjects: 2.049200 ms  DeleteObjects: 0.102500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.329224 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd429ca2b01a8e49c3d3e16758636e645') in 0.016820 seconds 
+  Import took 0.020038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009143 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd429ca2b01a8e49c3d3e16758636e645') in 0.002848 seconds 
+  Import took 0.006048 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2927.
+Total: 2.204200 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.083400 ms MarkObjects: 1.819900 ms  DeleteObjects: 0.106000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 292.365413 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15a09c4b14fe9d027d2a4e96b5105d1') in 0.014021 seconds 
+  Import took 0.016960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.344690 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a65c2fccceb95da2ff236f344b2dcf5') in 0.003060 seconds 
+  Import took 0.006793 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004018 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2931.
+Total: 2.333700 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.094000 ms MarkObjects: 1.908300 ms  DeleteObjects: 0.108200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5004.166401 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83a22fabaa30c81924d0f1d23c61540') in 0.016234 seconds 
+  Import took 0.019459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006155 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83a22fabaa30c81924d0f1d23c61540') in 0.002846 seconds 
+  Import took 0.006886 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003858 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2935.
+Total: 2.796300 ms (FindLiveObjects: 0.226900 ms CreateObjectMapping: 0.089600 ms MarkObjects: 2.375500 ms  DeleteObjects: 0.103400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 217.357051 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c20157a53f73b018fa37b3ce60cded6') in 0.015594 seconds 
+  Import took 0.019388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.276384 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f3a45667d6a85a474f087f90e4e39a') in 0.002678 seconds 
+  Import took 0.007073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.768631 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3bf9af596c541e340a66aed7e77caa') in 0.002556 seconds 
+  Import took 0.006157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001078 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3bf9af596c541e340a66aed7e77caa') in 0.003362 seconds 
+  Import took 0.006518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.324936 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29573f93067e98c50ac7d48224f2d505') in 0.002476 seconds 
+  Import took 0.005930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.425006 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb0a49b54cda410ba871328ed9b1546') in 0.003009 seconds 
+  Import took 0.006396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.218275 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676731cc148f38b4675d512e2454d03b') in 0.002321 seconds 
+  Import took 0.005595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.212609 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b95278f744f15c6fe8c4f05171d41b') in 0.003013 seconds 
+  Import took 0.006709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.174673 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fa859a5eb687e7b5ed4d9127d45da2') in 0.002589 seconds 
+  Import took 0.006158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.205186 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6281ed28f4abbc7795f6c62718a96ecc') in 0.003245 seconds 
+  Import took 0.007833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.725009 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c09fb72e9c3d7c25793a3c2406e9a6') in 0.003130 seconds 
+  Import took 0.007071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.598407 seconds.
+  path: Assets/Shaders/Swirls.shader
+  artifactKey: Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Swirls.shader using Guid(2669c1b9d57bb4842bbab0307aaff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcc9750866f7b5abff84b00956df6a8') in 0.003188 seconds 
+  Import took 0.006584 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -43,6 +43,8 @@ public class PlayerController : MonoBehaviour
             _worldPosClicked = Camera.main.
                 ScreenToWorldPoint(Input.mousePosition);
             _worldPosClicked.z = transform.position.z;
+            // TODO: show mouse ripple effect
+            GameManager.Instance.GetRippleAtLocation(_worldPosClicked);
             _userClicked = true;
         }
     }

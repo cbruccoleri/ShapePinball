@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+
 public class GameManager : MonoBehaviour
 {
 
@@ -50,6 +51,13 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private GameObject _obstacleGroup;
+
+    [SerializeField]
+    private GameObject _ripplePlane;
+
+    [SerializeField, Range(0.0f, 5.0f)]
+    private float _rippleDuration = 2.0f;
+
     #endregion
 
     private List<GameObject> _attractors = new List<GameObject>();
@@ -70,6 +78,32 @@ public class GameManager : MonoBehaviour
         private set => _gameOver = value;
     }
 
+    #region MouseRippleHandling
+
+    private Queue<GameObject> _queueRipples = new Queue<GameObject>();
+
+    public GameObject GetRippleAtLocation(Vector3 pos)
+    {
+        GameObject objInstance;
+
+        if (_queueRipples.Count > 0) { // get object from the queue
+            objInstance = _queueRipples.Dequeue();
+        }
+        else {
+            objInstance = GameObject.Instantiate(_ripplePlane, _ripplePlane.transform);
+        }
+        objInstance.transform.position = pos;
+        objInstance.GetComponent<RipplePlaneControl>().ActivateFromPool(_rippleDuration);
+        return objInstance;
+    }
+
+
+    public void ReturnToPool(GameObject objInstance)
+    {
+        _queueRipples.Enqueue(objInstance);
+    }
+    #endregion
+
     public void GameIsOver()
     {
         if (!_debugMode) {
@@ -88,6 +122,7 @@ public class GameManager : MonoBehaviour
     }
 
     private int _score = 0;
+
     private bool _drawVectorField;
 
     public int score {
@@ -100,7 +135,6 @@ public class GameManager : MonoBehaviour
         score += pointsToAdd;
         Debug.Log($"Score: {score}");
     }
-
 
 
     public Vector3 GetAttractionForceAtLocation(Vector3 position)
@@ -134,7 +168,6 @@ public class GameManager : MonoBehaviour
     }
 
 
-
     void Awake()
     {
         // Implement singleton
@@ -144,6 +177,14 @@ public class GameManager : MonoBehaviour
         else {
             _instance = this;
         }
+        // subscribe to receive events from pooled objects
+        RipplePlaneControl.OnDeactivate += ReturnToPool;
+    }
+
+    private void OnDestroy()
+    {
+        // unsubscribe to receive events from pooled objects
+        RipplePlaneControl.OnDeactivate -= ReturnToPool;
     }
 
     // Start is called before the first frame update

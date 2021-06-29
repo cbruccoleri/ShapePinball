@@ -28,7 +28,7 @@ public class WandererObstacle : AnimatedObstacle
                 float forceMag = Random.Range(0.1f, 2.0f);
                 Vector3 forceVec = GameManager.RandomDirection() * forceMag;
                 _actions.Enqueue(forceVec);
-                Debug.Log($"Nudge Wanderer: {forceVec}");
+                //Debug.Log($"Nudge Wanderer: {forceVec}");
             }
         }
     }
