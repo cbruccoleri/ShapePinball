@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
 
 
     #region InspectorProperties
-
+    // ENCAPSULATION
     [SerializeField]
     private bool _debugMode = false;
 
@@ -68,6 +68,7 @@ public class GameManager : MonoBehaviour
 
     private bool _pause = false;
 
+    // ENCAPSULATION
     public bool IsPaused {
         get => _pause;
         private set => _pause = value;
@@ -136,7 +137,7 @@ public class GameManager : MonoBehaviour
         Debug.Log($"Score: {score}");
     }
 
-
+    // ABSTRACTION
     public Vector3 GetAttractionForceAtLocation(Vector3 position)
     {
         Vector3 vecForce = Vector3.zero;
@@ -153,7 +154,7 @@ public class GameManager : MonoBehaviour
         return vecForce;
     }
 
-
+    // ABSTRACTION
     public Vector3 BlackHolesOnlyForceAtLocation(Vector3 position)
     {
         Vector3 vecForce = Vector3.zero;

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+// INHERITANCE
 [RequireComponent(typeof(Rigidbody2D))]
 public class WandererObstacle : AnimatedObstacle
 {
@@ -12,6 +13,7 @@ public class WandererObstacle : AnimatedObstacle
 
     private ConcurrentQueue<Vector3> _actions = new ConcurrentQueue<Vector3>();
 
+    //POLYMORPHISM
     protected override void DoAction()
     {
         // TODO: implement energy-seeking behavior

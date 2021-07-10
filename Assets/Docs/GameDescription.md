@@ -15,7 +15,7 @@
 
 - Add sound effects
 
-- Wanderers should have some sense of purpose (basic AI): e.g. seek energy sources
+- Wanderers should have some sense of purpose (basic AI): e.g. seek energy sources. The black hole is an energy source, but it reduces health. Health is restored by the health pills released by wanderers and  static obstacles when hit.
 
 - Add music
 

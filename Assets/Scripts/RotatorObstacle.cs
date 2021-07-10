@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public class RotatorObstacle : AnimatedObstacle
 {
     #region InspectorProperties
@@ -46,6 +47,7 @@ public class RotatorObstacle : AnimatedObstacle
         }
     }
     
+    // POLYMORPHISM
     protected override void PostCollisionBehavior()
     {
         GameManager.Instance.UpdateScore(PointValue);
